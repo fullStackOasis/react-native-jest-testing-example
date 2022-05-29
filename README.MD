@@ -16,6 +16,8 @@ After getting everything set up, the instructions say
 
 The instructions that you see there from the CLI are incorrect, and you'll see an error if you follow them. To avoid that, open a second terminal and `npx react-native start` to run Metro server.
 
+After creating the application using the standard boilerplate, I add a component and modified the app quite a bit, because I wanted to create tests for a bug that I'd run across in my development work.
+
 The app has been checked in with a bug that will cause the app to crash on Android.
 
 # the template test
@@ -59,7 +61,7 @@ Here's a more meaningful test.
 
 https://reactnative.dev/docs/testing-overview#structuring-tests
 
-Replace the current display content with something more functional, a `KeyboardAvoidingView` with some text inputs.
+Replace the current display content [with something more functional](https://github.com/fullStackOasis/react-native-jest-testing-example/blob/main/components/FlexibleContent.js), a `KeyboardAvoidingView` with some text inputs.
 
 I added `styled-components`, because I wanted to add a test for a problem that I had experienced in a real project.
 
